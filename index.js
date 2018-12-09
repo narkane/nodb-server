@@ -1,6 +1,6 @@
 const express = require("express");
 const { json } = require("body-parser");
-const controller = require("./controllers/ basic_controller");
+const controller = require("./controllers/basic_controller");
 const app = express();
 
 app.use(json());
